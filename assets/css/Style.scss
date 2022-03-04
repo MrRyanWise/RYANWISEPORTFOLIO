@@ -1,0 +1,61 @@
+
+.container_ {
+  display: inline-block;
+  color:#EEE;
+  padding: 1em;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  text-align: right;
+  transform: translateY(-50%);
+  width: 61.8%;
+  white-space: nowrap;
+
+  @media screen and (max-width: 36rem) {
+    transform: translateY(-50%) rotate(90deg) translateX(-50%);
+  }
+}
+
+button {
+    appearance: none;
+    border-radius: 50%;
+    border: 0;
+    background-color:#EEE;
+    color:hsl(180 + -135, 80%, 60%);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 900;
+    letter-spacing: .0816em;
+    position: relative;
+    text-transform: uppercase;
+    transition: background-color .25s ease-out, transform .5s ease-out;
+    &:hover {
+      background-color: hsl(180 + -135, 80%, 60%);
+      color: #111;
+    }
+  }
+  
+ 
+
+  .try {
+    font-size: .618rem;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 .5rem;
+  
+    &:hover {
+      transform: scale(1.3333);
+      
+      .text {
+        display: inline-block;
+        transform: scale(.75);
+      }
+      ~ .buy {
+        transform: scale(.75);
+      }
+    }
+    .text {
+      transition: transform .5s ease-out;
+      transform: scale(1);
+    }
+  }

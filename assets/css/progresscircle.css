@@ -1,0 +1,154 @@
+.title-s{
+align-items: center;
+}
+.skill{
+    width: 160px;
+    height: 160px ; 
+   position: relative;
+}
+
+.outer{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%; 
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7);
+}
+
+.inner{
+    height: 120px;
+    width: 120px; 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+}
+
+.number{
+    font-weight: 600;
+    color:  url(#GradientColor);
+    color:  #673ab7;
+}
+
+.nameskill{
+    font-weight: 600;
+    color:  url(#GradientColor);
+    color:  #673ab7;
+}
+/*
+
+circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray:472 ;
+    stroke-dashoffset: 472;
+     animation: anim 1s linear forwards;
+}*/
+
+.c1{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray:472 ;
+    stroke-dashoffset: 472;
+     animation: anim 1s linear forwards;
+}
+
+
+.c2{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray:472 ;
+    stroke-dashoffset: 472;
+     animation: anim2 1s linear forwards;
+}
+
+.c3{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray:472 ;
+    stroke-dashoffset: 472;
+     animation: anim3 1s linear forwards;
+}
+
+.c4{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray:472 ;
+    stroke-dashoffset: 472;
+     animation: anim4 1s linear forwards;
+}
+
+.c5{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray:472 ;
+    stroke-dashoffset: 472;
+     animation: anim5 1s linear forwards;
+}
+
+.c6{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray:472 ;
+    stroke-dashoffset: 472;
+     animation: anim6 1s linear forwards;
+}
+
+svg{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+@keyframes anim {
+    100%{
+        stroke-dashoffset: 165;
+    }
+}
+
+@keyframes anim2 {
+    100%{
+        stroke-dashoffset: 212;
+    }
+}
+@keyframes anim3 {
+    100%{
+        stroke-dashoffset: 259;
+    }
+}
+ 
+@keyframes anim4 {
+    100%{
+        stroke-dashoffset: 398;
+    }
+}
+ 
+@keyframes anim5 {
+    100%{
+        stroke-dashoffset: 390;
+    }
+}
+ 
+@keyframes anim6{
+    100%{
+        stroke-dashoffset: 410;
+    }
+}
+ 
+/*
+Pour 65% = 472-472*0.65 =165.2
+    */
+    
