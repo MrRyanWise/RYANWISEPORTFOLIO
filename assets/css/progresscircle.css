@@ -132,19 +132,19 @@ svg{
  
 @keyframes anim4 {
     100%{
-        stroke-dashoffset: 398;
+        stroke-dashoffset: 238;
     }
 }
  
 @keyframes anim5 {
     100%{
-        stroke-dashoffset: 390;
+        stroke-dashoffset: 350;
     }
 }
  
 @keyframes anim6{
     100%{
-        stroke-dashoffset: 410;
+        stroke-dashoffset: 290;
     }
 }
  
